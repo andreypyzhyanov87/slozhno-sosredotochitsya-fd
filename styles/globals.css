@@ -17,20 +17,17 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+div,
+nav {
   margin: 0;
   padding: 0;
 }
 
-ul {
+ul, li, ol {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-li {
-  margin: 0;
-  padding: 0;
 }
 
 img {
@@ -43,7 +40,6 @@ header, main, footer, section {
   padding: 0;
 }
 
-
 picture {
   margin: 0;
   padding: 0;
@@ -55,6 +51,8 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 .page {
