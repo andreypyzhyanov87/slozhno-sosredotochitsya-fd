@@ -45,21 +45,18 @@
 
 .decorated-zone {
   position: relative;
-  block-size: 97vh;
-  min-block-size: 668px;
+  min-block-size: 96.7vh;
 }
 
 @media (min-width: 768px) {
   .decorated-zone {
-    block-size: 98vh;
-    min-block-size: 1024px;
+    min-block-size: 98vh;
   }
 }
 
 @media (min-width: 1024px) {
   .decorated-zone {
-    block-size: 72.7vh;
-    min-block-size: 768px;
+    min-block-size: 72.7vh;
   }
 }
 
@@ -82,13 +79,7 @@
   border-left: 1px solid var(--decorative-corner);
   inline-size: 25px;
   block-size: 25px;
-  inset-block-end: 20px;
-}
-
-@media (min-width:768px) {
-  .decorated-zone::after {
-    inset-block-end: 40px;
-  }
+  inset-block-end: 0;
 }
 
 .header__title {
@@ -154,14 +145,13 @@
 
 .header__theme-menu {
   justify-self: end;
-  padding-block-start: 65px;
-  padding-block-end: 48px;
+  padding-block: 65px;
 }
 
 @media (min-width: 768px) {
   .header__theme-menu {
     padding-block-start: 172px;
-    padding-block-end: 29px;
+    padding-block-end: 67px;
   }
 }
 
@@ -170,7 +160,7 @@
     justify-self: center;
     margin-block-start: 0;
     padding-block: 0;
-    margin-block-end: 177px;
+    margin-block-end: 215px;
   }
 }
 
@@ -216,7 +206,7 @@
 }
 
 .why {
-  margin-block-start: 29px;
+  margin-block-start: 50px;
 }
 
 @media (min-width: 768px) {
@@ -224,7 +214,7 @@
     display: grid;
     grid-template-columns: 236px 1fr;
     column-gap: var(--gap);
-    margin-block-start: 40px;
+    margin-block-start: 80px;
   }
 
   .why__header {
@@ -285,7 +275,7 @@
 
 @media (min-width: 768px) {
   .what {
-    margin: 60px 0 0;
+    margin-block-start: 57px;
   }
 
   .what__heading {
@@ -382,19 +372,11 @@
   font-weight: 700;
   font-size: var(--size-text-title-mobile);
   line-height: 82.5%;
-  margin-block-start: -20px;
 }
 
 @media (min-width: 768px) {
   .footer__text {
     font-size: var(--size-text--title-desktop);
-    margin-block-start: -42px;
   }
 }
 
-@media (min-width: 1024px) {
-  .footer__text {
-    font-size: var(--size-text--title-desktop);
-    margin-block-start: -30px;
-  }
-}
