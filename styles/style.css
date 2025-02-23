@@ -45,18 +45,21 @@
 
 .decorated-zone {
   position: relative;
-  min-block-size: 96.7vh;
+  block-size: 96.7vh;
+  min-block-size: 668px;
 }
 
 @media (min-width: 768px) {
   .decorated-zone {
-    min-block-size: 98vh;
+    block-size: 98vh;
+    min-block-size: 1024px;
   }
 }
 
 @media (min-width: 1024px) {
   .decorated-zone {
-    min-block-size: 72.7vh;
+    block-size: 72.7vh;
+    min-block-size: 768px;
   }
 }
 
@@ -79,7 +82,13 @@
   border-left: 1px solid var(--decorative-corner);
   inline-size: 25px;
   block-size: 25px;
-  inset-block-end: 0;
+  inset-block-end: 20px;
+}
+
+@media (min-width:768px) {
+  .decorated-zone::after {
+    inset-block-end: 40px;
+  }
 }
 
 .header__title {
@@ -145,13 +154,14 @@
 
 .header__theme-menu {
   justify-self: end;
-  padding-block: 65px;
+  padding-block-start: 65px;
+  padding-block-end: 48px;
 }
 
 @media (min-width: 768px) {
   .header__theme-menu {
     padding-block-start: 172px;
-    padding-block-end: 67px;
+    padding-block-end: 29px;
   }
 }
 
@@ -160,7 +170,7 @@
     justify-self: center;
     margin-block-start: 0;
     padding-block: 0;
-    margin-block-end: 215px;
+    margin-block-end: 177px;
   }
 }
 
@@ -206,7 +216,7 @@
 }
 
 .why {
-  margin-block-start: 50px;
+  margin-block-start: 29px;
 }
 
 @media (min-width: 768px) {
@@ -214,7 +224,7 @@
     display: grid;
     grid-template-columns: 236px 1fr;
     column-gap: var(--gap);
-    margin-block-start: 80px;
+    margin-block-start: 40px;
   }
 
   .why__header {
@@ -275,7 +285,7 @@
 
 @media (min-width: 768px) {
   .what {
-    margin-block-start: 57px;
+    margin-block-start: 60px;
   }
 
   .what__heading {
@@ -372,11 +382,19 @@
   font-weight: 700;
   font-size: var(--size-text-title-mobile);
   line-height: 82.5%;
+  margin-block-start: -20px;
 }
 
 @media (min-width: 768px) {
   .footer__text {
     font-size: var(--size-text--title-desktop);
+    margin-block-start: -42px;
   }
 }
 
+@media (min-width: 1024px) {
+  .footer__text {
+    font-size: var(--size-text--title-desktop);
+    margin-block-start: -30px;
+  }
+}
