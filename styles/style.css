@@ -1,6 +1,6 @@
 .page {
   font-size: 18px;
-  padding: 10px;
+  padding: 0 10px;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -27,8 +27,8 @@
   display: flex;
   visibility: var(--rec-decorative-visibility, visible);
   align-items: center;
-  inset-inline-end: 11px;
-  inset-block-start: 1px;
+  inset-inline-end: 10px;
+  inset-block-start: 0;
   gap: 10px;
   color: var(--decoration-rec-icon);
 }
@@ -43,9 +43,13 @@
   block-size: 7px;
 }
 
+.aaa {
+  padding-top: 10px;
+}
+
 .decorated-zone {
   position: relative;
-  block-size: 96.7vh;
+  block-size: 100vh;
   min-block-size: 668px;
 }
 
@@ -71,7 +75,7 @@
   inline-size: 25px;
   block-size: 25px;
   inset-inline-end: 0;
-  inset-block-start: 0;
+  inset-block-start: 0px;
   
 }
 
@@ -82,7 +86,7 @@
   border-left: 1px solid var(--decorative-corner);
   inline-size: 25px;
   block-size: 25px;
-  inset-block-end: 20px;
+  inset-block-end: 10px;
 }
 
 @media (min-width:768px) {
@@ -117,7 +121,7 @@
 }
 
 .header__text {
-  margin-block: 55px;
+  margin-block: 56px;
   height: fit-content;
 }
 
@@ -154,8 +158,8 @@
 
 .header__theme-menu {
   justify-self: end;
-  padding-block-start: 65px;
-  padding-block-end: 48px;
+  padding-block-start: 74px;
+  padding-block-end: 58px;
 }
 
 @media (min-width: 768px) {
@@ -215,8 +219,12 @@
   pointer-events: none;
 }
 
+.main {
+  padding-block-start: 10px;
+}
+
 .why {
-  margin-block-start: 29px;
+  margin-block-start: 30px;
 }
 
 @media (min-width: 768px) {
@@ -224,7 +232,6 @@
     display: grid;
     grid-template-columns: 236px 1fr;
     column-gap: var(--gap);
-    margin-block-start: 40px;
   }
 
   .why__header {
@@ -257,6 +264,7 @@
   margin: 10px 0 20px;
   color: var(--accent-color-chapter-text);
   font-weight: 400;
+  line-height: 23.4px;
 }
 
 .how {
@@ -280,7 +288,7 @@
 }
 
 .what {
-  margin-block-start: 45px;
+  margin-block-start: 50px;
 }
 
 @media (min-width: 768px) {
@@ -306,17 +314,16 @@
 }
 
 .how__list-header {
-  margin-block-end: 20px;
+  margin-block-end: 18px;
 }
 
 .how__list-title {
   font-weight: 400;
-  line-height: 22px;
 }
 
 .gallery {
   margin-block-start: 50px;
-  margin-block-end: 47px;
+  margin-block-end: 36px;
   
 }
 
@@ -382,13 +389,12 @@
   font-weight: 700;
   font-size: var(--size-text-title-mobile);
   line-height: 82.5%;
-  margin-block-start: -20px;
 }
 
 @media (min-width: 768px) {
   .footer__text {
     font-size: var(--size-text--title-desktop);
-    margin-block-start: -42px;
+    margin-block-start: -32px;
   }
 }
 
@@ -397,4 +403,5 @@
     font-size: var(--size-text--title-desktop);
     margin-block-start: -30px;
   }
+  
 }
