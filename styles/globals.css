@@ -19,7 +19,15 @@ h5,
 h6,
 p,
 div,
-nav {
+nav,
+header,
+main,
+footer,
+section,
+img,
+picture,
+button,
+a {
   margin: 0;
   padding: 0;
 }
@@ -30,29 +38,12 @@ ul, li, ol {
   list-style: none;
 }
 
-img {
-  margin: 0;
-  padding: 0;
-}
-
-header, main, footer, section {
-  margin: 0;
-  padding: 0;
-}
-
-picture {
-  margin: 0;
-  padding: 0;
-}
-
 button,
 a {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  margin: 0;
-  padding: 0;
 }
 
 .page {
