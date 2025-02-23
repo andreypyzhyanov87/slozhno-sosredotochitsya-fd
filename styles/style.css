@@ -5,6 +5,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-image: var(--cover-image);
+  background-color: var(--accent-color-bg-page);
   background-repeat: no-repeat;
 }
 
@@ -16,7 +17,7 @@
 
 .header {
   display: grid;
-  grid-template-rows: auto max-content auto; 
+  grid-template-rows: auto max-content auto;
   grid-template-columns:  auto;
   
 }
@@ -45,20 +46,20 @@
 .decorated-zone {
   position: relative;
   block-size: 97vh;
-  min-block-size: 668px; 
+  min-block-size: 668px;
 }
 
 @media (min-width: 768px) {
   .decorated-zone {
     block-size: 98vh;
-    min-block-size: 1024px; 
+    min-block-size: 1024px;
   }
 }
 
 @media (min-width: 1024px) {
   .decorated-zone {
     block-size: 72.7vh;
-    min-block-size: 768px; 
+    min-block-size: 768px;
   }
 }
 
@@ -115,7 +116,7 @@
   background-color: var(--accent-color-background-decor);
 }
 
-.header__text{
+.header__text {
   margin-block: 55px;
   height: fit-content;
 }

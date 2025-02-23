@@ -12,13 +12,14 @@
   --accent-color-link:  #353430;
   --accent-shadow-color-link: #F1B2CE;
   --accent-color-chapter-text: #353430;
+  --accent-color-bg-page: #FFF1F7;
   --accent-shadow-color: #FF8DCB;
   --rec-decorative-visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
-  :root{
-    --cover-image: url(../images/cover-image-light.png);
+  :root {
+  --cover-image: url(../images/cover-image-light.png);
   --accent-text-color: #FFC2E6;
   --decorative-corner: #353430;
   --accent-color: #FF8DCB;
@@ -31,6 +32,7 @@
   --accent-color-link:  #353430;
   --accent-shadow-color-link: #F1B2CE;
   --accent-color-chapter-text: #353430;
+  --accent-color-bg-page: #FFF1F7;
   --accent-shadow-color: #FF8DCB;
   --rec-decorative-visibility: hidden;
   }
