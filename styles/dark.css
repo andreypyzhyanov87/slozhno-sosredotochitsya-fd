@@ -1,5 +1,6 @@
 :root.theme-dark {
   --cover-image: url(../images/cover-image-dark.png);
+  --decorative-corner: #FF0070;
   --decoration-rec-icon: #FF0070;
   --accent-text-color:  #DB00FF;
   --accent-color: #FF0070;
@@ -12,6 +13,8 @@
   --title-header-part-color: #FF0070;
   --accent-color-link: #F1B2CE;
   --accent-shadow-color-link: #FF0070;
+  --accent-shadow-color: #FF0070;
   --accent-color-chapter-text: #F1B2CE;
   --accent-color-footer: #ff0070;
+  --rec-decorative-visibility: visible;
 }
