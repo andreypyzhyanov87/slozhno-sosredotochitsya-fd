@@ -174,12 +174,6 @@
   line-height: 130%;
 }
 
-@media (min-width: 1024px) {
-  .accent-text {
-    line-height: 127%;
-  }
-}
-
 .accent-text_bold {
   font-weight: 700;
 }
@@ -301,7 +295,7 @@
   .what-section {
     grid-template-columns: 1fr;
   }
-  
+
   .section__header {
     max-inline-size: 315px;
   }
@@ -439,7 +433,7 @@
 @media (min-width: 1024px) {
   .footer__text {
     font-size: var(--size-text--title-desktop);
-    padding-block-end: 30px;
+    padding-block-end: 40px;
     padding-inline-start: 10px;
   }
   
