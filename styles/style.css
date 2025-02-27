@@ -38,7 +38,7 @@
 @media (min-width: 768px) {
   .decorative-rec-icon {
     inset-block-start: 20px;
-    inset-inline-end: 10px;
+    inset-inline-end: 30px;
   }
 }
 
@@ -68,13 +68,12 @@
  @media (min-width: 768px) {
   .decorated-zone {
     padding-block-start: 0px;
-    padding-inline-start: 10px;
   }
 }
 
 @media (min-width: 1024px) {
   .decorated-zone {
-    max-block-size: 768px;
+    min-block-size: 668px;
     padding-inline-start: 0px;
   }
 }
@@ -92,6 +91,13 @@
 }
 
 @media (min-width: 768px) {
+  .decorated-zone::before {
+    inset-block-start: 20px;
+    inset-inline-end: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
   .decorated-zone::before {
     inset-block-start: 20px;
     inset-inline-end: 20px;
@@ -125,7 +131,6 @@
 
 @media (min-width: 768px) {
   .header__title {
-    margin-inline-start: -10px;
     padding-block-start: 30px;
     box-sizing: border-box;
   }
@@ -135,8 +140,6 @@
   .header__title {
     font-size: var(--size-text--title-desktop);
     padding-block-start: 0px;
-    margin-block-start: -40px;
-    margin-inline-start: -10px;
   }
 }
 
@@ -193,7 +196,7 @@
     padding-block-start: 192px;
     padding-block-end: 29px;
     box-sizing: border-box;
-    padding-inline-end: 10px;
+    padding-inline-end: 20px;
   }
 }
 
@@ -202,7 +205,7 @@
     justify-self: center;
     margin-block-start: 20px;
     padding-block: 0;
-    margin-block-end: 237px;
+    margin-block-end: 197px;
     margin-inline-start: 10px;
   }
 }
@@ -280,7 +283,7 @@
     margin-block-end: 60px;
   }
 
-  .why__header {
+  .section__header {
     max-inline-size: 236px;
   }
 
@@ -295,11 +298,8 @@
     margin-block-end: 63px;
   }
 
-  .what-section {
-    grid-template-columns: 1fr;
-  }
 
-  .why__header {
+  .section__header {
     max-inline-size: 315px;
   }
 
@@ -341,7 +341,7 @@
   margin-block-end: 18px;
 }
 
-.how__list-title {
+.list-title {
   font-weight: 400;
 }
 
@@ -436,7 +436,7 @@
 @media (min-width: 1024px) {
   .footer__text {
     font-size: var(--size-text--title-desktop);
-    margin-block-start: -30px;
+    padding-block-end: 30px;
     padding-inline-start: 10px;
   }
   
