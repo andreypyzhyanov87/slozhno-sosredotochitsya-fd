@@ -298,7 +298,10 @@
     margin-block-end: 63px;
   }
 
-
+  .what-section {
+    grid-template-columns: 1fr;
+  }
+  
   .section__header {
     max-inline-size: 315px;
   }
