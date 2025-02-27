@@ -131,7 +131,7 @@
 
 @media (min-width: 768px) {
   .header__title {
-    padding-block-start: 30px;
+    padding-block-start: 20px;
     box-sizing: border-box;
   }
 }
@@ -172,6 +172,12 @@
 .accent-text {
   font-size: 18px;
   line-height: 130%;
+}
+
+@media (min-width: 1024px) {
+  .accent-text {
+    line-height: 127%;
+  }
 }
 
 .accent-text_bold {
@@ -426,7 +432,7 @@
 @media (min-width: 768px) {
   .footer__text {
     font-size: var(--size-text--title-desktop);
-    padding-block-start: 20px;
+    padding-block-start: 10px;
   }
 }
 
