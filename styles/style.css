@@ -157,7 +157,7 @@
   .header__text {
     justify-self: end;
     max-inline-size: 364px;
-    margin-block-start: 152px;
+    margin-block-start: 160px;
     margin-inline-end: 20px;
   }
 }
@@ -439,7 +439,7 @@
 @media (min-width: 1024px) {
   .footer__text {
     font-size: var(--size-text--title-desktop);
-    padding-block-end: 40px;
+    padding-block-end: 30px;
     padding-inline-start: 10px;
   }
   
