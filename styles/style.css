@@ -432,7 +432,7 @@
 @media (min-width: 768px) {
   .footer__text {
     font-size: var(--size-text--title-desktop);
-    padding-block-start: 10px;
+    padding-block-start: 5px;
   }
 }
 
