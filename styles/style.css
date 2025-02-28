@@ -140,13 +140,12 @@
     justify-self: end;
     max-inline-size: 364px;
     margin-inline-end: 20px;
-    margin-block-start: 46px;
+    margin-block-start: 35px;
   }
 }
 
 @media (min-width: 1024px) {
   .header__text {
-    margin-block-start: 45px;
     max-inline-size: 491px;
   }
 }
