@@ -140,12 +140,13 @@
     justify-self: end;
     max-inline-size: 364px;
     margin-inline-end: 20px;
+    margin-block: 49px;
   }
 }
 
 @media (min-width: 1024px) {
   .header__text {
-    margin-block-start: 114px;
+    margin-block-start: 95px;
     max-inline-size: 491px;
   }
 }
@@ -415,7 +416,7 @@
 
 @media (min-width: 1024px) {
   .footer__text {
-    padding-block-end: 30px;
+    padding-block-end: 20px;
     padding-inline-start: 10px;
   }
   
