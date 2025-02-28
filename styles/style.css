@@ -258,6 +258,10 @@
     margin-block-end: 60px;
   }
 
+  .what-section {
+    grid-template-columns: 1fr;
+  }
+
   .section__header {
     max-inline-size: 236px;
   }
@@ -265,12 +269,7 @@
 
 @media (min-width: 1024px) {
   .content-section {
-    grid-template-columns: 314px 1fr;
     margin-block-end: 63px;
-  }
-
-  .what-section {
-    grid-template-columns: 1fr;
   }
 
   .section__header {
