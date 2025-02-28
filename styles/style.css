@@ -276,7 +276,7 @@
    если оставить только в медиа запросе 768 .what-section  то .content-section 
    перкроет его в медиа запросе 1024 не правим .content-section для 1024 так как используется в других секциях*/
   .what-section {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
 
   .section__header {
