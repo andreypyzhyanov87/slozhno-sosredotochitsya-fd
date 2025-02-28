@@ -146,7 +146,7 @@
 
 @media (min-width: 1024px) {
   .header__text {
-    margin-block-start: 75px;
+    margin-block-start: 45px;
     max-inline-size: 491px;
   }
 }
