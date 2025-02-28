@@ -269,7 +269,14 @@
 
 @media (min-width: 1024px) {
   .content-section {
+    grid-template-columns: 314px 1fr;
     margin-block-end: 63px;
+  }
+/* не яв-ся дубликатом перекрываем стили .content-section для 1024, 
+   если оставить только в медиа запросе 768 .what-section  то .content-section 
+   перкроет его в медиа запросе 1024 не правим .content-section для 1024 так как используется в других секциях*/
+  .what-section {
+    grid-template-columns: 1fr; 
   }
 
   .section__header {
